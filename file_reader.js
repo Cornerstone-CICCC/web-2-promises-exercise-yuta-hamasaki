@@ -32,7 +32,7 @@ async function hobbyConverter() {
     const hobbiesArr = convertedHobby.split(',').map(hobby => hobby.trim());
     return hobbiesArr;
   } catch (err) {
-    console.error("Error in hobbyConverter:", err);
+    console.error("Error in hobbyConverter", err);
   }
 }
 
@@ -53,6 +53,6 @@ asyncAwaitReader().then(data => {
   if (data) {
     console.log(`${data.firstName} ${data.lastName} is ${data.age} years old and his hobbies are ${data.hobbyArr[0]} and ${data.hobbyArr[1]}`);
   } else {
-    console.error("Data is missing or invalid.");
+    console.error("no data");
   }
 });
