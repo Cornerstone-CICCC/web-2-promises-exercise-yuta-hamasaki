@@ -1,0 +1,10 @@
+const fs = require("fs").promises;
+
+// THEN-CATCH SOLUTION BELOW THIS LINE
+
+
+
+
+
+
+// ASYNC/AWAIT SOLUTION BELOW THIS LINE
