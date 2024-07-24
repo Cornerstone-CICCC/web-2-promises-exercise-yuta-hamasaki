@@ -18,9 +18,9 @@ fs.readFile("./firstname.txt", "utf8")
 .then((data4)=>{
   let hobbiesData = data4.replace(/^\[|\]$/g, '').replace(/"/g, '');
   const hobbiesArr = hobbiesData.split(',').map(hobby => hobby.trim());
-  hobbiesOne = hobbiesArr[0]
-  hobbiesTwo = hobbiesArr[1]
-  console.log(`${fName} ${lName} is ${age} years old and his hobbies are ${hobbiesOne} and ${hobbiesTwo}`)
+  hobbyOne = hobbiesArr[0]
+  hobbyTwo = hobbiesArr[1]
+  console.log(`${fName} ${lName} is ${age} years old and his hobbies are ${hobbyOne} and ${hobbyTwo}`)
 })
 
 
